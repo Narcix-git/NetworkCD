@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NetworkCD</string>
+    <string name="add_node_mode">Add Node</string>
+    <string name="add_connection_mode">Add Connection</string>
+    <string name="modify_mode">Modify Network</string>
+    <string name="reset_graph">Reset Graph</string>
+    <string name="save_network">Save Network</string>
+    <string name="load_network">Load Network</string>
+    <string name="add_node_label">Enter node label</string>
+    <string name="add_connection_label">Enter connection label</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="modify">Modify</string>
+    <string name="node_options">Node Options</string>
+    <string name="modify_node_label">Modify node label</string>
+    <string name="connection_options">Connection Options</string>
+    <string name="modify_connection">Modify Connection</string>
+    <string name="modify_connection_label">Modify connection label</string>
+    <string name="select_color">Select a color</string>
+    <string name="select_thickness">Select thickness</string>
+</resources>

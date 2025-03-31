@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Ligne 1 : Boutons pour les modes et réinitialisation -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnAjoutN"
+            android:layout_width="107dp"
+            android:layout_height="62dp"
+            android:text="@string/add_node_mode" />
+
+        <Button
+            android:id="@+id/btnAjoutC"
+            android:layout_width="118dp"
+            android:layout_height="62dp"
+            android:text="@string/add_connection_mode" />
+
+        <Button
+            android:id="@+id/btnReinitialiserGraph"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/reset_graph" />
+    </LinearLayout>
+
+    <!-- Ligne 2 : Boutons pour sauvegarder, charger et modifier le réseau -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnSauvegarderReseau"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/save_network" />
+
+        <Button
+            android:id="@+id/btnAfficherReseau"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/load_network" />
+
+        <Button
+            android:id="@+id/btnModifier"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/modify_mode" />
+    </LinearLayout>
+
+    <!-- Vue graphique du réseau avec le plan d’appartement en fond -->
+    <ci.miage.mob.networkCD.GraphView
+        android:id="@+id/graphView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/house_plans" />
+</LinearLayout>

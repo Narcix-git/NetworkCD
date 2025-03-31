@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NetworkCD</string>
+    <string name="add_node_mode">Ajouter objet</string>
+    <string name="add_connection_mode">Ajouter connexion</string>
+    <string name="modify_mode">Modifier réseau</string>
+    <string name="reset_graph">Réinitialiser réseau</string>
+    <string name="save_network">Sauvegarder réseau</string>
+    <string name="load_network">Afficher réseau</string>
+    <string name="add_node_label">Entrez l\'étiquette du nœud</string>
+    <string name="add_connection_label">Entrez l\'étiquette de la connexion</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="modify">Modifier</string>
+    <string name="node_options">Options de l\'objet</string>
+    <string name="modify_node_label">Modifier l\'étiquette du nœud</string>
+    <string name="connection_options">Options de la connexion</string>
+    <string name="modify_connection">Modifier connexion</string>
+    <string name="modify_connection_label">Modifier l\'étiquette de la connexion</string>
+    <string name="select_color">Sélectionnez une couleur</string>
+    <string name="select_thickness">Sélectionnez l\'épaisseur</string>
+</resources>
